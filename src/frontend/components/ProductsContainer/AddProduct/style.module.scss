@@ -1,0 +1,21 @@
+.add__container {
+    background-color: var(--color-darker-opac);
+    // box-shadow: 1px 0px 3px 1px var(--color-primary-100);
+    border-radius: 5px;
+    width: 100%;
+
+    .add__content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: .5rem;
+        padding: 1rem 1rem;
+
+        button {
+            margin-top: .8rem;
+            width: 10rem;
+            text-align: center;
+            align-self: center;
+        }
+    }
+}
